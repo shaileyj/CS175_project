@@ -1,7 +1,7 @@
 # CS175 Project
 ## Demo Code
 To run the demo, first run `pip install -r requirements.txt` in a new environment.  
-Then run the cells in order. Be sure to run each cell only **once**!
+Then run all the cells in project.ipynb in order. Be sure to run each cell only **once**!
 ## File Descriptions
 **src/pretrained_models/**:
 This directory contains the pretrained models for all clusters.  
@@ -14,4 +14,10 @@ This file clusters the stocks based on their price trajectories.
 **src/stock_and_tweet_preprocessing.ipynb**:
 This file preprocesses the stock data, sentiment data, and the risk-free rate data.  
 **src/StockTrader.ipynb**:
-This file contains the custom Gym environment, and also trains and evaluates the models.  
+This file contains the custom Gym environment, and also trains and evaluates the models.
+**project.ipynb**:
+This file contains a demo of the trained models running on test data
+**project.html**:
+This html file is a version of project.ipynb in html format
+**requirements.txt**:
+This file lists required modules to run project.ipynb
